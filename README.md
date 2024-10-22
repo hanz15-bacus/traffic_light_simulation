@@ -1,1 +1,0 @@
-![alt](sampler.png)
