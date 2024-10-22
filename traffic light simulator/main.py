@@ -23,11 +23,11 @@ class Car:
         self.target_speed = self.speed
         self.stopped = False
         
-        # Define the shape of the car as a triangle
+       
         self.shape = self.canvas.create_polygon(
-            self.x, self.y,                 # Tip of the triangle
-            self.x - 15, self.y + 20,       # Bottom left corner
-            self.x + 15, self.y + 20,       # Bottom right corner
+            self.x, self.y,                 
+            self.x - 15, self.y + 20,      
+            self.x + 15, self.y + 20,       
             fill="blue", outline="black"
         )
         
